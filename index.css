@@ -1,0 +1,285 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+}
+.navigation {
+  background-color: #2874f0;
+  color: white;
+  display: flex;
+  padding: 8px;
+}
+
+.nav_right {
+  display: flex;
+  width: 50%;
+  gap: 15px;
+  position: relative;
+  left: 170px;
+}
+
+.flipkart {
+  font-style: italic;
+}
+
+.plus {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.plus :hover {
+  text-decoration: underline;
+}
+.orange_plus {
+  color: rgb(239, 176, 60);
+}
+
+.search {
+  height: 40px;
+  width: 450px;
+  border: none;
+  border-radius: 2px;
+  padding: 0 10px;
+}
+.search_btn {
+  height: 40px;
+  width: 35px;
+  background-color: #fff;
+  border: none;
+  color: #2874f0;
+  cursor: pointer;
+}
+
+.login {
+  background-color: white;
+  border: none;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+  color: #2874f0;
+}
+
+.nav_left {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  position: relative;
+  left: 100px;
+}
+.saler {
+  display: flex;
+  gap: 25px;
+}
+
+.saler li {
+  display: inline;
+  /* display: flex;
+justify-content: space-between; */
+}
+
+.saler li a {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+}
+
+.saler li a :hover {
+  text-decoration: underline;
+}
+
+.product_nav{
+    height: 120px;
+    /* border: 2px solid red; */
+    background-color: #fff;
+    box-shadow: black;
+}
+
+.product_nav{
+  padding: 20px;
+  /* text-align: center; */
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  justify-content:center ;
+gap: 70px;
+}
+
+.product{
+  text-align: center;
+}
+.itms{
+  text-decoration: none;
+  color: rgb(46, 46, 46);
+  font-weight: bold
+}
+.product :hover{
+  /* text-decoration: underline; */
+  color: #2874f0;
+}
+.img{
+  height: 70px;
+}
+
+.mid{
+  margin: 7px;
+  height: 300px;
+  background: url(/Screenshot_1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.arrow{
+  height: 100px;
+  width: 40px;
+  background-color: #efefef;
+  font-size: 30px;
+  display: flex;
+/* text-align: center; */
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.all_products{
+  margin: 7px;
+  height: 300px;
+  /* border: 2px solid red; */
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.view_all{
+  width: 250px;
+  height: 300px;
+  background: url(/all\ itms.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* border: 2px solid red; */
+  background-color: rgb(212, 212, 212);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.blue_btn{
+  width: 100px;
+  height: 35px;
+  background: #2874f0;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.product_items img{
+  height: 140px ;
+  /* overflow: hidden; */
+  cursor: pointer;
+}
+
+.product_items img :hover{
+  height: 145px ;
+}
+
+.footer_container{
+  height: 350px;
+  background-color: #172337;
+  color: white;
+  /* position: relative; */
+  /* padding: 70px 60px; */
+  /* text-align: center; */
+}
+
+
+.contain{
+  display: flex;
+padding:50px 40px 0 40px ;
+}
+.container{
+  display: flex;
+  gap: 40px;
+  width: 40%;
+}
+
+/* .footer_item{
+  position: relative; 
+  top: 50px;
+  left: 50px;
+} */
+
+.Heading{
+  color: #949494;
+  font-size: 14px;
+}
+
+.list li{
+  list-style-type: none;
+}
+
+.list li a{
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.list li a:hover{
+  text-decoration: underline;
+}
+
+.line{
+  height: 200px;
+  border-left: 1px solid rgb(121, 121, 121);
+
+}
+
+.two{
+  position: relative;
+  /* padding: 0 0px 0 40; */
+  left: 140px;
+}
+
+.add{
+  font-size: 12px;
+}
+
+.hr{
+color: #172337;
+border-top: 1px solid gray;
+
+}
+.last_line{
+  /* padding: 10px; */
+display: flex;
+justify-content: space-between;
+/* gap: 40px; */
+padding: 20px;
+padding-left: 50px;
+}
+.lst{
+  display: flex;
+  gap: 30px;
+}
+
+.gold{
+  color: gold;
+}
+
+.card{
+  padding-right:40px ;
+}
+.card_img{
+  height: 25px;
+}
